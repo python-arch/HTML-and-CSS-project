@@ -1,0 +1,42 @@
+ .container{
+   position: absolute;
+   left:0;
+   top:0;
+   width: 100%;
+   height: 100%;
+ }
+ .image{
+   width: 100%;
+   height: 100%;
+   background-image:linear-gradient( rgba(27,27,27,0.6),rgba(27, 27, 27, 0.5)),url("py2.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+ }
+#h{
+  font-family:'Russo One', sans-serif;
+  text-align: center;
+  padding: 230px ;
+  font-size: 110px;
+  color: white;
+  letter-spacing: 13px;
+    transition: 1s all ease-in-out;
+}
+#s{
+  font-size: 50px;
+  font-family:'Indie Flower', cursive;
+  border: 1px solid white;
+  display: block;
+  color: white;
+  margin-top: -320px;
+  margin-left: 670px;
+  background-color: rgba(112,128,144,0.3);
+  transition: 0.5s all ease-in;
+}
+#s a{
+  text-decoration: none;
+  color: white;
+}
+#s:hover{
+  transform: scale(1.1,1.1);
+  background-color: rgba(112,128,144,0.7);
+}

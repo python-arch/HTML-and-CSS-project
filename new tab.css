@@ -1,0 +1,194 @@
+.container{
+  width:90%;
+}
+header{
+background-image: linear-gradient( rgba(27,27,27,0.6),rgba(27, 27, 27, 0.7)),url("porg4.jpg");
+  height: 370px;
+  text-align: center;
+  color: white;
+}
+header #hi{
+  transition: 1s all ease-out;
+  padding: 10px;
+  font-size: 90px;
+  font-family: Arial;
+  display: block;
+  margin-bottom: 30px;
+}
+header #h{
+  transition: 1s all ease-out;
+  font-size: 40px;
+  font-family: Arial;
+}
+#d{
+animation-name: example;
+animation-duration: 4s;
+animation-delay: 2s;
+}
+#span{
+  color: rgb(220,20,60);
+  font-size: 35px;
+  font-family: Arial;
+}
+#h1{
+  font-size: 28px;
+  font-family: Arial;
+  margin-top: 10px;
+  transition: 1s all ease-out;
+}
+#pp{
+  margin-top:10px;
+  margin-left:5px;
+  line-height: 25px;
+  width:60%;
+  height: 50%;
+  font-family: serif;
+  font-size: 20px;
+  padding:10px;
+  transition: 1s all ease-in-out;
+}
+#prog{
+width:340px;
+height: 240px;
+display: block;
+float: right;
+margin-top: -350px;
+margin-right: 30px;
+transition: 1s all ease-out;
+}
+.wrap{
+width:89%;
+height: 50%;
+overflow: hidden;
+border-bottom: 1px solid black;
+display:block;
+}
+#footer{
+  transition: 1s all ease-out;
+  background-color: rgba(190,5,20,0.8);
+  font-size: 15px;
+  font-family: 'Rubik Mono One', sans-serif;
+  padding:14px;
+letter-spacing: 2px;
+  color: white;
+  display: block;
+}
+.wrap2{
+  width:90%;
+  height: 50%;
+  overflow: hidden;
+  display:block;
+}
+#aside{
+  box-sizing: border-box;
+  height: 787px;
+  width: 270px;
+  background-color:rgba(128,128,128,0.2);
+  float: right;
+margin-top: -786px;
+text-align: center;
+padding: 10px;
+font-size: 20px;
+font-family: 'Indie Flower', cursive;
+text-transform: uppercase;
+}
+#input{
+  margin-top:10px;
+  font-size: 17px;
+  font-family: 'Indie Flower', cursive;
+  color: gray;
+  font-style: italic;
+  transform: scale(1.06,1);
+}
+#input:active{
+  transform:scale(1.02,1.02)
+}
+button{
+  font-size: 13px;
+  background-color: rgba(220,20,60,0.5);
+text-align: center;
+border-radius: 30%;
+}
+button:hover{
+  transform: scale(1.2,1.2);
+}
+#r{
+font-family: 'Indie Flower', cursive;
+text-transform: none;
+margin-top:50px;
+display: block;
+}
+#gg{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: 300px;
+margin-top: 20px;
+transition: all 1s ease-out;
+}
+#gg2{
+  height: 100px;
+  width: 100px;
+  display: block;
+  border-radius: 50%;
+  margin-top: -98px;
+  margin-left: 600px;
+  transition: all 1s ease-out;
+}
+#gg3{
+  height: 100px;
+  width: 100px;
+  display: block;
+  border-radius: 50%;
+  margin-top: -98px;
+  margin-left: 900px;
+  transition: all 1s ease-out;
+}
+#gg:hover{
+  transform: scale(0.6,0.6);
+}
+#gg2:hover{
+  transform: scale(0.6,0.6);
+}
+#gg3:hover{
+  transform: scale(0.6,0.6);
+}
+#face{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-top: 150px;
+    transition: all 1s ease-out;
+}
+#face:hover{
+  transform: scale(1.2,1.2);
+}
+#insta{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin-top: -50px;
+  margin-left: 90px;
+    transition: all 1s ease-out;
+}
+#insta:hover{
+  transform: scale(1.2,1.2);
+}
+#twit{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: 180px;
+  margin-top: -66px;
+    transition: all 1s ease-out;
+}
+#twit:hover{
+  transform: scale(1.2,1.2);
+}
+#m{
+display: block;
+margin-top: 35px;
+}

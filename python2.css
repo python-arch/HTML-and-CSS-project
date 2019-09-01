@@ -1,0 +1,264 @@
+body{
+  background-color: rgba(1,69,111);
+}
+.cont1{
+  box-sizing: border-box;
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-gap: 40px;
+grid-auto-rows: 50px;
+float: right;
+width:1000px;
+height: 400px;
+margin-right: 80px;
+margin-top: 20px;
+
+}
+.cont2{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  grid-auto-rows: 50px;
+  float: right;
+  width:1000px;
+  height: 400px;
+  margin-right: 80px;
+}
+#h2{
+  font-size: 30px;
+  font-family: Arial;
+  color:rgb(192,192,192,0.9);
+  margin-bottom: 4px;
+}
+.i{
+color: rgb(70,130,180);
+font-size: 35px;
+}
+#z{
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:rgb(192,192,192,0.9);
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+}
+.x{
+  color: rgb(70,130,180);
+  font-size: 28px;
+  display: block;
+  font-family:'Pacifico', cursive;
+  margin-bottom: 10px;
+
+}
+#imm{
+  margin-top: 5px;
+  height: 250px;
+  width:350px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imm:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#h1{
+  font-size: 30px;
+  font-family: Arial;
+  color:rgb(192,192,192,0.9);
+  margin-bottom: 4px;
+
+}
+#p1{
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:rgb(192,192,192,0.9);
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+}
+#pyy{
+  margin-top: 5px;
+  height: 250px;
+  width:350px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#pyy:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#py{
+  width:60px;
+  height: 60px;
+  transition: all 1s ease-in-out;
+
+}
+#py:hover{
+    transform: scale(0.7,0.7);
+}
+#python{
+  display: block;
+  color: white;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 23px;
+transition: all 1s ease-in-out;
+}
+#python:hover{
+  transform: scale(0.7,0.7);
+}
+#aside{
+  box-sizing: border-box;
+  height: 970px;
+  width: 240px;
+  background-color:rgba(128,128,128,0.2);
+  float: left;
+text-align: center;
+padding: 10px;
+font-size: 20px;
+font-family: 'Pacifico', cursive;
+text-transform: uppercase;
+border-right: 1px white solid;
+margin-top: -419px;
+}
+#u{
+display: block;
+margin-top: 90px;
+color: white;
+transition: 1s all ease-in;
+font-size: 25px;
+}
+#input{
+  margin-top:20px;
+  font-size: 14.5px;
+  font-family: 'Pacifico', cursive;
+  color: gray;
+  font-style: italic;
+  transform: scale(1.06,1);
+  transition: 1s all ease-in;
+}
+#input:active{
+  transform:scale(1.02,1.02)
+}
+#send{
+  font-size: 13px;
+  background-color: rgba(220,20,60,0.5);
+text-align: center;
+border-radius: 30%;
+transition: 1s all ease-in;
+}
+#send:hover{
+  transform: scale(1.2,1.2);
+}
+#r{
+font-family: 'Pacifico', cursive;
+text-transform: none;
+margin-top:40px;
+display: block;
+color:white;
+transition: 1s all ease-in;
+font-size: 20px;
+}
+#face{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-top: 120px;
+    transition: all 1s ease-out;
+}
+#face:hover{
+  transform: scale(1.2,1.2);
+}
+#insta{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin-top: -57px;
+  margin-left: 90px;
+    transition: all 1s ease-out;
+}
+#insta:hover{
+  transform: scale(1.2,1.2);
+}
+#twit{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: 160px;
+  margin-top: -67px;
+    transition: all 1s ease-out;
+}
+#twit:hover{
+  transform: scale(1.2,1.2);
+}
+#m{
+display: block;
+margin-top: 20px;
+color: white;
+}
+#link{
+  display: block;
+  margin-top: 65px;
+  font-size: 18px;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+word-spacing: 2px;
+line-height: 25px;
+}
+#h{
+  background-color: rgba(128,128,128,0.2);
+padding:7px;
+  font-size: 17px;
+  margin-top: 30px;
+  border: 1px white solid;
+  transition: 0.3s ease-in all;
+}
+#h:hover{
+  transform: scale(1.2,1.2);
+}
+#h a{
+  text-decoration: none;
+  color: white;
+}
+#q{
+  display: block;
+  float: right;
+  width: 33px;
+  height: 33px;
+  margin-top: -43px;
+  margin-right: 360px;
+  transition: 1s all ease-out;
+}
+#q:hover{
+  transform: scale(1.2,1.2)  rotate(360deg);
+transform-origin: bottom right;
+}
+#fe{
+  height: 47px;
+  width: 47px;
+  display: block;
+  float: right;
+  margin-top:-44px;
+  margin-right: 260px;
+  transition: 1s all ease-out;
+}
+#fe:hover{
+  transform: scale(1.2,1.2) rotate(30deg);
+}

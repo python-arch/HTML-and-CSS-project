@@ -1,0 +1,321 @@
+body{
+  background-color: #708090;
+  perspective: 600px;
+  height: 900px;
+}
+header{
+  height: 70px;
+  box-sizing: border-box;
+  float: right;
+margin-top: 1px;
+transition: 1s all ease-out
+}
+#header{
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 38px;
+  letter-spacing: 4px;
+  border: 2.9px white solid;
+  padding: 4px;
+  transition: 1s all ease-out;
+  margin-right: 440px;
+  margin-top: -100px;
+}
+#js{
+  font-size: 25px;
+  font-family:'Russo One', sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+  display: block;
+}
+#py{
+  padding: 3px;
+  border: 1px solid white;
+  height: 100px;
+  width: 120px;
+  border-radius: 50%;
+margin-bottom: 20px;
+  transition: 1s all ease-out
+}
+#h1{
+  box-sizing: border-box;
+  margin-top: 120px;
+  font-size: 30px;
+  font-family: Arial;
+  color:white;
+  margin-left:270px;
+  margin-bottom: 15px;
+transition: 1s all ease-out
+}
+#h2{
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: Arial;
+  color:white;
+  margin-left:0px;
+  margin-bottom: 15px;
+transition: 1s all ease-out
+}
+#h3{
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: Arial;
+  color:white;
+  margin-left:0px;
+  margin-bottom: 15px;
+  transition: 1s all ease-out
+}
+#p1{
+  margin-left: 270px;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:white;
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+    height: 230px;
+    width:710px;
+
+}
+#pyy{
+  margin-top: -260px;
+  height: 170px;
+  width:330px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+  margin-right: 30px;
+}
+#pyy:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+.i{
+  color:#003366;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+}
+.cont2{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  grid-auto-rows: 50px;
+  float: right;
+  width:1000px;
+  height: 400px;
+  margin-right: 80px;
+}
+.cont3{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  grid-auto-rows: 50px;
+  float: right;
+  width:1000px;
+  height: 400px;
+  margin-right: 80px;
+}
+#x{
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:white;
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+}
+#z{
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:white;
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+}
+#imm{
+  margin-top: 5px;
+  height: 250px;
+  width:350px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imt{
+  margin-top: 50px;
+  height: 250px;
+  width:350px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imt:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#imm:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#imtt{
+  margin-top: 55px;
+  height: 210px;
+  width: 360px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imtt:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#aside{
+  box-sizing: border-box;
+  height: 1320px;
+  width: 250px;
+  background-color:rgba(128,128,128,0.2);
+  float: left;
+text-align: center;
+padding: 10px;
+font-size: 20px;
+font-family: 'Pacifico', cursive;
+text-transform: uppercase;
+border-right: 1px white solid;
+margin-top: -828px;
+}
+#u{
+display: block;
+margin-top: 120px;
+color: white;
+transition: 1s all ease-in;
+font-size: 25px;
+}
+#input{
+  margin-top:20px;
+  font-size: 14.5px;
+  font-family: 'Pacifico', cursive;
+  color: gray;
+  font-style: italic;
+  transform: scale(1.06,1);
+  transition: 1s all ease-in;
+}
+#input:active{
+  transform:scale(1.02,1.02)
+}
+#send{
+  font-size: 13px;
+  background-color: rgba(220,20,60,0.5);
+text-align: center;
+border-radius: 30%;
+transition: 1s all ease-in;
+}
+#send:hover{
+  transform: scale(1.2,1.2);
+}
+#r{
+font-family: 'Pacifico', cursive;
+text-transform: none;
+margin-top:40px;
+display: block;
+color:white;
+transition: 1s all ease-in;
+font-size: 20px;
+}
+#face{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-top: 120px;
+    transition: all 1s ease-out;
+}
+#face:hover{
+  transform: scale(1.2,1.2);
+}
+#insta{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin-top: -57px;
+  margin-left: 90px;
+    transition: all 1s ease-out;
+}
+#insta:hover{
+  transform: scale(1.2,1.2);
+}
+#twit{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: 169px;
+  margin-top: -67px;
+    transition: all 1s ease-out;
+}
+#twit:hover{
+  transform: scale(1.2,1.2);
+}
+#m{
+display: block;
+margin-top: 10px;
+color: white;
+}
+#link{
+  display: block;
+  margin-top: 65px;
+  font-size: 18px;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+word-spacing: 2px;
+line-height: 25px;
+}
+#h{
+  background-color: rgba(128,128,128,0.2);
+padding:7px;
+  font-size: 17px;
+  margin-top: 30px;
+  border: 1px white solid;
+  transition: 0.3s ease-in all;
+}
+#h:hover{
+  transform: scale(1.2,1.2);
+}
+#h a{
+  text-decoration: none;
+  color: white;
+}
+#hand1,#hand2{
+  height: 50px;
+  width: 80px;
+  display: block;
+  box-sizing: border-box;
+}
+#hand1{
+  margin-left: 310px;
+  margin-top: -47px;
+}
+#hand2{
+  margin-left: -100px;
+  transform: rotateY(180deg);
+    margin-top: -47px;
+}

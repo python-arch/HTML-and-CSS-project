@@ -1,0 +1,104 @@
+body{
+  background-color: rgba(128,128,128,0.17);
+  box-sizing: border-box;
+}
+.wrap1{
+  width:28%;
+  height: 459px;
+}
+.t{
+  display: block;
+  width:350px;
+  height: 300px;
+  font-size: 55px;
+  font-family: Arial;
+  margin: 90px 30px;
+  line-height: 64px;
+    transition: 0.6s all ease-in-out;
+}
+#r{
+ color: rgb(220,20,60);
+}
+#u{
+  font-family: Arial;
+  color: white;
+  background-color: rgb(220,20,60);
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin-top: -8px;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 1s all ease-in-out;
+}
+#p{
+  transform: scale(0.5,0.5) rotate(-20deg);
+float: right;
+transition: 1s all ease-in-out;
+background-color: rgba(128,128,128,0.17);
+padding: 3px;
+margin-left: -100px;
+display: block;
+}
+#p:hover{
+  transform: scale(0.6,0.6);
+  border: 3px solid rgb(220,20,60);
+  border-radius: 50%;
+  content: "Python"
+}
+.wrap2{
+  margin-top: -680px;
+  margin-left: 20px;
+  width:37%;
+  height: 702px;
+  float: right;
+}
+#js{
+  transform: rotate(20deg) scale(0.5,0.5);
+  transition: 1s all ease-in-out;
+  padding:3px;
+  margin-left: -350px;
+  margin-top: -47px;
+
+
+}
+#js:hover{
+  transform: scale(0.62,0.62);
+  border-radius: 50%;
+  border: 3px solid rgb(220,20,60) ;
+  display: block;
+}
+#u a {
+  text-decoration: none;
+  color: white;
+}
+#u:hover{
+  background-color: rgb(200,10,40);
+}
+.wrap3{
+  width:35%;
+}
+#hc{
+  transform: scale(0.46,0.46);
+  transition: 1s all ease-in-out;
+  background-color: rgba(128,128,128,0.17);
+  padding: 3px;
+  margin-top: -435px;
+  margin-left: 770px;
+  display: block;
+}
+#hc:hover{
+  transform: scale(0.62,0.62);
+  border-radius: 50%;
+  border: 3px solid rgb(220,20,60) ;
+}
+footer{
+  transition: 1s all ease-out;
+  background-color: rgba(220,20,60,0.8);
+  margin-top: 88px;
+  font-size: 15px;
+  font-family: 'Rubik Mono One', sans-serif;
+  padding:13px;
+letter-spacing: 2px;
+  color: white;
+}

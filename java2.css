@@ -1,0 +1,349 @@
+body{
+  background-color: rgba(27, 27, 27);
+  perspective: 600px;
+  height: 900px;
+}
+header{
+  height: 70px;
+  box-sizing: border-box;
+  float: right;
+  margin-right: 850px;
+margin-top: 1px;
+transition: 1s all ease-out
+}
+#header{
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 62px;
+  letter-spacing: 4px;
+  border: 2.9px white solid;
+  padding: 4px;
+  transition: 1s all ease-out
+}
+.border3{
+  margin-top: -200px;
+  display: inline-block;
+  background-color: rgb(220,20,60);
+  width:15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 392.6px;
+  transition: 1s all ease-out
+}
+.border2{
+  width:148px;
+  height: 2px;
+  background-color: white;
+  display: inline-block;
+margin-left: 250px;
+margin-top: 42px;
+border-bottom: 0.5px solid white;
+transition: 1s all ease-out
+
+}
+.border1{
+  margin-top: -30px;
+  float: right;
+  display: inline-block;
+width: 850px;
+height: 2px;
+background-color: white;
+border-bottom: 0.5px solid white;
+transition: 1s all ease-out
+}
+#j{
+  font-size: 68px;
+   display: inline-block;
+  transform: rotate(13deg);
+  transition: 1s all ease-out
+}
+#js{
+  font-size: 20px;
+  font-family:'Russo One', sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+}
+#q{
+  display: block;
+  float: right;
+  width: 33px;
+  height: 33px;
+  margin-top: -43px;
+  margin-right: 360px;
+  transition: 1s all ease-out;
+}
+#q:hover{
+  transform: scale(1.2,1.2)  rotate(360deg);
+transform-origin: bottom right;}
+
+#py{
+  height: 100px;
+  width: 180px;
+  margin-left: -70px;
+  transition: 1s all ease-out
+}
+#h1{
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: Arial;
+  color:rgb(192,192,192,0.9);
+  margin-left:270px;
+  margin-bottom: 15px;
+transition: 1s all ease-out
+}
+#h2{
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: Arial;
+  color:rgb(192,192,192,0.9);
+  margin-left:0px;
+  margin-bottom: 15px;
+transition: 1s all ease-out
+}
+#h3{
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: Arial;
+  color:rgb(192,192,192,0.9);
+  margin-left:0px;
+  margin-bottom: 15px;
+  transition: 1s all ease-out
+}
+#p1{
+  margin-left: 270px;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:rgb(192,192,192,0.9);
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+    height: 230px;
+    width:710px;
+    
+}
+#pyy{
+  margin-top: -280px;
+  height: 200px;
+  width:300px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+  margin-right: 40px;
+}
+#pyy:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+.i{
+  color:rgb(220,20,60);
+  font-size: 36px;
+  letter-spacing: 1.5px;
+}
+.cont2{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  grid-auto-rows: 50px;
+  float: right;
+  width:1000px;
+  height: 400px;
+  margin-right: 80px;
+}
+.cont3{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  grid-auto-rows: 50px;
+  float: right;
+  width:1000px;
+  height: 400px;
+  margin-right: 80px;
+}
+#x{
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:rgb(192,192,192,0.9);
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+}
+#z{
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color:rgb(192,192,192,0.9);
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+    transition: 1s all ease-in-out;
+}
+#imm{
+  margin-top: 5px;
+  height: 250px;
+  width:350px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imt{
+  margin-top: 50px;
+  height: 250px;
+  width:350px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imt:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#imm:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#imtt{
+  margin-top: 48px;
+  height: 230px;
+  width:330px;
+  float: right;
+  display: block;
+  transition: 1s all ease-in-out;
+  padding:3px;
+  border: 1px solid white;
+}
+#imtt:hover{
+  padding: 3px;
+  border-radius: 40%;
+  border: 1px solid white;
+}
+#aside{
+  box-sizing: border-box;
+  height: 1272px;
+  width: 250px;
+  background-color:rgba(128,128,128,0.2);
+  float: left;
+text-align: center;
+padding: 10px;
+font-size: 20px;
+font-family: 'Pacifico', cursive;
+text-transform: uppercase;
+border-right: 1px white solid;
+margin-top: -850px;
+}
+#u{
+display: block;
+margin-top: 120px;
+color: white;
+transition: 1s all ease-in;
+font-size: 25px;
+}
+#input{
+  margin-top:20px;
+  font-size: 14.5px;
+  font-family: 'Pacifico', cursive;
+  color: gray;
+  font-style: italic;
+  transform: scale(1.06,1);
+  transition: 1s all ease-in;
+}
+#input:active{
+  transform:scale(1.02,1.02)
+}
+#send{
+  font-size: 13px;
+  background-color: rgba(220,20,60,0.5);
+text-align: center;
+border-radius: 30%;
+transition: 1s all ease-in;
+}
+#send:hover{
+  transform: scale(1.2,1.2);
+}
+#r{
+font-family: 'Pacifico', cursive;
+text-transform: none;
+margin-top:40px;
+display: block;
+color:white;
+transition: 1s all ease-in;
+font-size: 20px;
+}
+#face{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-top: 120px;
+    transition: all 1s ease-out;
+}
+#face:hover{
+  transform: scale(1.2,1.2);
+}
+#insta{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin-top: -57px;
+  margin-left: 90px;
+    transition: all 1s ease-out;
+}
+#insta:hover{
+  transform: scale(1.2,1.2);
+}
+#twit{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: 169px;
+  margin-top: -67px;
+    transition: all 1s ease-out;
+}
+#twit:hover{
+  transform: scale(1.2,1.2);
+}
+#m{
+display: block;
+margin-top: 10px;
+color: white;
+}
+#link{
+  display: block;
+  margin-top: 65px;
+  font-size: 18px;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+word-spacing: 2px;
+line-height: 25px;
+}
+#h{
+  background-color: rgba(128,128,128,0.2);
+padding:7px;
+  font-size: 17px;
+  margin-top: 30px;
+  border: 1px white solid;
+  transition: 0.3s ease-in all;
+}
+#h:hover{
+  transform: scale(1.2,1.2);
+}
+#h a{
+  text-decoration: none;
+  color: white;
+}
